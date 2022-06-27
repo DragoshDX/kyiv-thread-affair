@@ -16,7 +16,7 @@ export default function Home() {
       <Header></Header>
 
       <main className="content">
-        <header className="content-header">
+        <header className="content-header mb-5">
           <ContentBanner></ContentBanner>
         </header>
 
