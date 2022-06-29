@@ -26,9 +26,20 @@ export default function ProductTile() {
         </div>
       </header>
 
-      <section className="product-tile-pricing"></section>
+      <section className="product-tile-pricing">
+        <span className="catalog-price">399.00</span>
 
-      <footer className="product-tile-controls"></footer>
+        <span className="price">
+          USD
+          <span>299</span>
+        </span>
+      </section>
+
+      <footer className="product-tile-controls">
+        <button className="button" type="button" title="Add to Cart">
+          Add to Cart
+        </button>
+      </footer>
     </article>
   );
 }
