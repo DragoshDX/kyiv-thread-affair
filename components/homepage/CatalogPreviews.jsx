@@ -3,7 +3,7 @@ import ProductTile from '../catalog/ProductTile';
 export default function CatalogPreviews() {
   return (
     <>
-      <section className="catalog-preview">
+      <section className="catalog-preview container">
         <header>
           <h1>
             <span>Glamour</span> Suits
@@ -18,12 +18,16 @@ export default function CatalogPreviews() {
           </p>
         </header>
 
-        <div className="product-tiles">
-          <ProductTile></ProductTile>
-
-          <ProductTile></ProductTile>
-
-          <ProductTile></ProductTile>
+        <div className="product-tiles row">
+          <div className="col-6 col-lg-4 mb-5 mb-lg-0">
+            <ProductTile></ProductTile>
+          </div>
+          <div className="col-6 col-lg-4 mb-5 mb-lg-0">
+            <ProductTile></ProductTile>
+          </div>
+          <div className="col-12 col-lg-4">
+            <ProductTile></ProductTile>
+          </div>
         </div>
       </section>
     </>
