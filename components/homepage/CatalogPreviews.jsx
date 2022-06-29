@@ -1,3 +1,5 @@
+import ProductTile from '../catalog/ProductTile';
+
 export default function CatalogPreviews() {
   return (
     <>
@@ -15,6 +17,14 @@ export default function CatalogPreviews() {
             mills, Vitale Barberis Canonico.
           </p>
         </header>
+
+        <div className="product-tiles">
+          <ProductTile></ProductTile>
+
+          <ProductTile></ProductTile>
+
+          <ProductTile></ProductTile>
+        </div>
       </section>
     </>
   );
