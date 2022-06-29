@@ -15,7 +15,7 @@ export default function ProductTile() {
 
         <span className="badge badge-oversized">%</span>
 
-        <div>
+        <div className="mt-4 text-center">
           <h1 className="product-tile-title">
             <span>Thread Affair</span>
             <span>Traveller</span>
@@ -26,8 +26,8 @@ export default function ProductTile() {
         </div>
       </header>
 
-      <section className="product-tile-pricing">
-        <span className="catalog-price">399.00</span>
+      <section className="product-tile-pricing text-center">
+        <span className="catalog-price d-block">399.00</span>
 
         <span className="price">
           USD
@@ -35,7 +35,7 @@ export default function ProductTile() {
         </span>
       </section>
 
-      <footer className="product-tile-controls">
+      <footer className="product-tile-controls text-center mt-4">
         <button className="button" type="button" title="Add to Cart">
           Add to Cart
         </button>
