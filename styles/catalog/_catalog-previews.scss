@@ -12,4 +12,21 @@
       }
     }
   }
+
+  &.flex-layout {
+    .product-tiles {
+      display: flex;
+      flex-direction: column;
+      row-gap: 24px;
+
+      @include media-breakpoint-up('lg') {
+        flex-direction: row;
+        justify-content: space-between;
+
+        & > .product-tile {
+          flex-basis: 27.429467%;
+        }
+      }
+    }
+  }
 }
